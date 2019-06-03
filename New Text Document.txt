@@ -1,0 +1,41 @@
+1.Operations
+2.Logical view
+3.Cost of operation
+4.Implementation
+
+LIST
+-empty
+-insert
+-remove
+-read/modify any element
+-count
+-specify some data type
+
+LIST OF INTEGERES 
+int list[10];
+int count=0;
+
+int isempty(void);
+{
+	if(0==count)
+	return 1;
+
+	if(0!=count)
+	return 0;
+
+}
+//returns '1' if list is empty
+//returns '0' if list is not empty
+
+
+
+
+int count(void);
+{
+return count;
+//we can directly return the count variable
+}
+void insert(int data);
+void remove(int index);
+void print(void);
+void modify_value(int index,int value);
